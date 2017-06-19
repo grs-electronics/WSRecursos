@@ -1,0 +1,35 @@
+{
+  "name": "resource-server",
+  "version": "1.0.0",
+  "description": "Servidor de recursos, que utiliza el servidor de autorizaciones, para validar al cliente",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "oauth2",
+    "serveresources",
+    "FranciscoRetana"
+  ],
+  "author": "Francisco Retana",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "connect-ensure-login": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.3",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "fs": "0.0.1-security",
+    "hdb": "^0.12.2",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "^4.10.2",
+    "passport": "^0.3.2",
+    "passport-http-bearer": "^1.0.1",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "request": "^2.81.0"
+  }
+}
